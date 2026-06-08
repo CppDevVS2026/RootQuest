@@ -1,5 +1,5 @@
 #include "unity.h"
-#include "my_lib/my_lib.h"
+#include "character_generator/character_generator.h"
 
 void setUp(void) {
     // Run before every test
@@ -9,13 +9,12 @@ void tearDown(void) {
     // Run after every test
 }
 
-void test_add_should_sum_two_integers(void) {
-    TEST_ASSERT_EQUAL_INT(5, add(2, 3));
-    TEST_ASSERT_EQUAL_INT(-1, add(2, -3));
+void test_placeholder(void) {
+    TEST_ASSERT_TRUE(1);
 }
 
 int main(void) {
     UNITY_BEGIN();
-    RUN_TEST(test_add_should_sum_two_integers);
+    RUN_TEST(test_placeholder);
     return UNITY_END();
 }

@@ -4,6 +4,6 @@ app_sources = [
 
 executable('app',
     app_sources,
-    dependencies: [my_lib_dep],
+    dependencies: [character_generator_dep],
     install: true,
 )

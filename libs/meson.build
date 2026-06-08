@@ -2,4 +2,5 @@
 libs_includes = include_directories('.')
 
 # Add subdirectories for your libraries here:
-subdir('my_lib')
+subdir('character')
+subdir('character_generator')
