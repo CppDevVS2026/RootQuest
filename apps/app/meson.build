@@ -1,9 +1,9 @@
 app_sources = [
-    'main.c',
+	'main.c',
 ]
 
 executable('app',
-    app_sources,
-    dependencies: [character_generator_dep],
-    install: true,
+           app_sources,
+           dependencies : [character_dep],
+           install : true,
 )
